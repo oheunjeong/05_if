@@ -11,8 +11,8 @@ int main(int argc, char *argv[]) {
 	scanf("%d",&input);
 	
 	if(input>0)
-	  printf("양수입니다.\n");
+	  printf("positive\n");
 	else
-	  printf("음수입니다.\n");
+	  printf("non-positive\n");
 	return 0;
 }
