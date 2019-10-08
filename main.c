@@ -5,17 +5,15 @@
 
 int main(int argc, char *argv[]) {
 	
-	int input;
-	
-	printf("input a naumber :");
-	scanf("%d",&input);
-	
-	if(input>0)
-		printf("postive\n");
-	else if(input<0)
-		printf("non-negative\n");
-	else
-		printf("zero\n");
+
+   int i=0, meter;
+   
+   while (i<3)
+   {
+   	meter = i*1609;
+   	printf("%d 마일은 %d 미터입니다.\n",i,meter);
+   	i ++;
+   }
 
 
 	
